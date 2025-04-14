@@ -9917,3 +9917,28 @@ h4, h5, h6 {
   object-fit: cover;  /* crops nicely within dimensions */
   border-radius: 10px; /* optional: for rounded corners */
 }
+.ask-lawyer-btn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 10000px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.ask-lawyer-btn:hover {
+  background-color: #0056b3;
+  text-decoration: none;
+  color: white;
+}
+
